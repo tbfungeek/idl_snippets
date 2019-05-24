@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lxh_lz</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (&lt;#classname#&gt; *)&lt;#propertyname#&gt; {
+    if (!_&lt;#propertyname#&gt;) {
+       _&lt;#propertyname#&gt; = [[&lt;#classname#&gt; alloc] init]];
+    }
+    return _&lt;#propertyname#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D9B2AFC8-963E-4DD0-B966-5854E8680CC1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>懒加载对象</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>layzy load object</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
